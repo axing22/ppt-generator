@@ -259,7 +259,7 @@ export default function PyramidAIPresenter() {
 
       if (Math.abs(diff) > swipeThreshold) {
         if (diff > 0) {
-          // 向左滑动 - 下一页
+          // 向左滑动 - 下一页页
           setCurrentSlideIndex(Math.min(slides.length - 1, currentSlideIndex + 1));
         } else {
           // 向右滑动 - 上一页
